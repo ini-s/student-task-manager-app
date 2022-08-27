@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/95cec1d6a0.js" crossorigin="anonymous"></script>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container container">
+        <!-- nav section  -->
+        <div class="container-fluid nav-section">
+            <div class="row">
+                <div class="col-6">
+                    <i class="fa-solid fa-2x fa-ellipsis-vertical"></i>
+                </div>
+                <div class="col-6 right-nav">
+                    <img class="nav-img" src="images/random-img1.jpg" alt="student-image">
+                </div>
+            </div>
+        </div>
+        <!-- top section  -->
+        <div class="container-fluid top">
+            <div class="row top-top">
+                <div class="col">
+                    <h1>
+                        Hi <span>Brenda</span>
+                    </h1>
+                    <p class="top-text">
+                        You have <span>8</span> pending tasks
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding:0">
+                    <div class="box top-box">
+                        <h2>
+                            Web App Design
+                        </h2>
+                        <p>
+                            Alex, Brenda, Chris
+                        </p>
+                        <div class="d-flex flex-row">
+                            <img class="top-img" src="images/random-img2.jpg" alt="student-image">
+                            <img class="top-img top-img2" src="images/random-img4.jpg" alt="student-image">
+                            <img class="top-img" src="images/random-img6.jpg" alt="student-image">
+                        </div>
+                        <div class="right-arrow">
+                            <a href="calendar.html">
+                                Continue
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom section  -->
+        <div class="bottom">
+            <h1>
+                Monthly Review
+            </h1>
+            <div class="row container-fluid row1">
+                <div class="col-5  bottom-box">
+                    <div class="row box longer">
+                        <div class="col">
+                            <p>
+                                <span>15</span> Tasks 
+                            </p>
+                            <p class="status">
+                                Completed
+                            </p>
+                            <div class="right-arrow">
+                                <a class="box-link" href="">
+                                    View All
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5 bottom-box">
+                    <div class="row box">
+                        <div class="col">
+                            <p>
+                                <span>11</span> Tasks 
+                            </p>
+                            <p class="status short">
+                                Ongoing
+                            </p>
+                            <div class="right-arrow">
+                                <a class="box-link" href="">
+                                    View All
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row container-fluid row1">
+                <div class="col-5  bottom-box">
+                    <div class="row box">
+                        <div class="col">
+                            <p>
+                                <span>8</span> Tasks 
+                            </p>
+                            <p class="status short">
+                                Pending
+                            </p>
+                            <div class="right-arrow">
+                                <a class="box-link" href="">
+                                    View All
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5 bottom-box">
+                    <div class="row box longer">
+                        <div class="col">
+                            <p>
+                                <span>3</span> Tasks 
+                            </p>
+                            <p class="status">
+                                Waiting for Review
+                            </p>
+                            <div class="right-arrow">
+                                <a class="box-link" href="">
+                                    View All
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer section  -->
+        <div class="container-fluid footer">
+            <div class="d-flex flex-row icons justify-content-between">
+                <a href="home.html">
+                    <ion-icon name="home-outline" class="icon"></ion-icon>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-buffer icon"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-plus icon"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-bell icon"></i>
+                </a>
+                <a href="index.html">
+                    <ion-icon name="settings-outline" class="icon"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- ionic icons js  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- j query  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- index js  -->
+    <script src="index.js"></script>
+</body>
+</html>

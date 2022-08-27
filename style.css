@@ -1,0 +1,428 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+body{
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    background-color:#acdcfa;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+a:hover{
+    color:rgb(194, 185, 185);
+}
+h1{
+    font-size: 1.5rem;
+    font-weight:900;
+}
+h2{
+    font-size:1.2rem;
+}
+.main-container{
+    position: relative;
+    width:100%;
+    max-width:800px;
+    margin: 20vh auto;
+    background-color: white;
+    border-radius:20px;
+    padding:1rem;
+}
+#dark-mode{
+    position:absolute;
+    right:20px;
+    cursor:pointer;
+}
+.dark{
+    background-color: #282828;
+    color:#ffff;
+}
+/* -- INDEX PAGE --  */
+/* logo section  */
+.logo-container .logo{
+    text-align: center;
+}
+.logo-container .logo img{
+    width:100%;
+    object-fit: contain;
+}
+/* text section  */
+.text br{
+    display:none;
+}
+.text h1{
+    font-size:2.5rem;
+    color:#4b6cb7;
+    line-height: 1.5;
+}
+.text h1, .text p, .text img{
+    text-align: center;
+}
+.text p{
+    font-size:16px;
+    font-weight: 100;
+    color:#3498db;
+}
+.button {
+   text-align: center;
+   margin-top:2rem;
+}
+.button .login-btn{
+    border-style: none;
+    border-radius:12px;
+    background-image:linear-gradient(to right, #3498db, #4b6cb7);
+    padding:0.5rem 2.5rem;
+    color: #ffff;
+}
+/* footer section  */
+.footer p{
+    font-weight:500;
+    text-align:center;
+}
+.footer a{
+    color:#3498db;
+    cursor: pointer;
+    font-weight:100;
+}
+/* -- LOGIN PAGE --  */
+.login, .sign-up{
+    /* background-image: url(/images/login-page-bg.jpeg); */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+a .black-icon{
+    color:#4b6cb7;
+    line-height: 0;
+}
+.login .nav-section{
+    padding-left:0
+}
+.data-box  input, .sign-up .sign-up-form input{
+    display:block;
+    border:1px solid #4b6cb7 ;
+    border-radius:10px;
+    width:100%;
+    padding:3%;
+}
+.sign-up .sign-up-form .terms input{
+    width:5%;
+    border-radius: 2px;
+}
+.data-box .login-button, .sign-up .sign-up-button{
+    border:none;
+    text-align: center;
+    color:white;
+    background:linear-gradient(to right, #3498db, #4b6cb7);
+    margin-top:1.5rem;
+    border-radius:10px;
+    width:100%;
+    padding:3%;
+}
+.data-box .username{
+    margin-bottom:1.5rem;
+}
+.data-box .forgot{
+    margin-top: 0.5rem;
+    text-align:center;
+}
+.data-box .forgot-pass{
+    font-size:14px;
+    color:grey;
+}
+.data-box .alternatives div, .data-box .alternatives p{
+    text-align:center
+}
+.data-box .alternatives p{
+    font-weight:100;
+}
+.data-box .alternatives .facebook{
+    text-align:start;
+    padding:0;
+}
+.data-box .alternatives .google{
+    text-align: end;
+    padding:0;
+}
+.data-box .alternatives img{
+    width:25%;
+}
+.foot{
+    text-align: center;
+    margin-top: 5rem;
+}
+/* SIGN UP PAGE  */
+.sign-up .logo-box img{
+    width:20%;
+}
+.sign-up .nav-section{
+    padding: 0.5rem;
+}
+.sign-up .head, .login .head{
+    font-size:25px;
+    font-weight:700;
+    margin: 2rem 0 ;
+}
+.sign-up .sign-up-form input{
+   margin-bottom:1.5rem;
+}
+.sign-up .sign-up-button .signup-link{
+    padding:3% 40%;
+}
+.sign-up .sign-up-form .terms span a, .sign-up .bottom a, .login .foot a{
+    color:#3498db;
+}.sign-up .bottom, .login .foot{
+    color:grey;
+    font-size: 14px;
+}
+/* -- HOME PAGE --*/
+.box{
+    color:#ffff;
+    background-image:linear-gradient(to right, #3498db, #4b6cb7);
+    border-radius:15px;
+    padding:1rem ;
+}
+/* nav section  */
+.nav-section{
+    padding: 1rem 1.5rem
+}
+.nav-section .fa-ellipsis-vertical{
+    line-height:1.2;
+    color:#3498db;
+}
+.nav-section .right-nav{
+    text-align: end;
+}
+.nav-section .right-nav i{
+    line-height:2;
+}
+.nav-section .nav-img{
+    width:40px;
+    height:40px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.top{
+    margin-top:1.5rem;
+}
+.top .top-top{
+    margin-bottom: 1.5rem;
+}
+.top .top-text{
+    color:rgba(69, 83, 96, 0.6);
+    font-weight:100;
+}
+.top .top-box h2{
+    margin-bottom: 0.2rem;
+}
+.top .top-box p{
+    margin-bottom:0.5rem;
+}
+.top .top-box p{
+    color:rgba(69, 83, 96, 0.6);
+    font-size:14px;
+    font-weight: 400;
+}
+.top .top-box .top-img, .ongoing .right .top-box .top-img{
+    width:1.5rem;
+    height:1.5rem;
+    object-fit:cover;
+    border-radius:50px;
+}
+.top .top-box .top-img2{
+    margin:0 0.8rem;
+}
+.top .top-box .right-arrow, .bottom .bottom-box .right-arrow{
+    text-align: end;
+}
+/* bottom section  */
+.bottom{
+    margin-top:2rem;
+    text-align:center;
+}
+.bottom h1{
+    margin:3rem 0 2.5rem 0 ;
+    text-align: left;
+}
+.bottom .longer{
+    padding-top:2.2rem !important;
+} 
+.bottom .row1{
+    margin-bottom:2rem;
+}
+.bottom .box{
+    padding:1rem 0 ;
+}
+.bottom .bottom-box p{
+    font-size:2rem;
+    font-weight: 900;
+}
+.bottom .bottom-box .status{
+    font-size:16px;
+    margin-bottom:3rem;
+}
+.bottom .bottom-box a{
+    font-size:12px;
+}
+.bottom .container-fluid{
+    padding-right:0;
+}
+.bottom .short{
+    margin-bottom: 1.5rem !important;
+}
+.bottom .col{
+   
+}
+/* footer section  */
+.footer{
+    margin-top:2rem;
+}
+.footer .icon{
+    font-size:2.2rem;
+}
+/* -- CALENDAR PAGE --  */
+.nav-section .fa-arrow-left{
+    line-height:2.7;
+}
+/* calendar section  */
+.calendar{
+    text-align:center;
+    padding:0 1.2rem;
+}
+.calendar .week div, .calendar .days div{
+    width:20px
+}
+.calendar .week, .calendar .days{
+    margin-bottom:1rem;
+}
+.calendar p{
+    font-weight:900;
+    font-size:20px;
+}
+.calendar .days{
+    font-weight:700;
+}
+/* ongoing section  */
+.ongoing{
+    margin-top: 2rem;
+}
+.ongoing .left, .ongoing .middle{
+    font-weight:900;
+}
+.ongoing h2{
+    font-size:1.5rem;
+    font-weight:700;
+    margin-bottom: 0.2rem;;
+}
+.ongoing .top-head{
+    font-size:2rem;
+    margin-bottom:1.2rem;
+    font-weight:900;
+}
+.ongoing .left{
+    padding-top:2rem;
+}
+.ongoing .right .bottom{
+    text-align: end;
+    margin-top:0;
+}
+.ongoing .right p{
+    font-weight:normal;
+}
+.ongoing .right .top-box p{
+    margin-bottom:0.3rem;
+    font-size:14px;
+}
+.ongoing .right .top-box .custom{
+    color:rgba(69, 83, 96, 0.6);
+}
+.ongoing .right .bottom p{
+    padding:0;
+    margin-bottom:0;
+    font-size:18px;
+}
+.ongoing .right .top-img2{
+    margin: 0 0.7rem;
+}
+.ongoing .right {
+    margin-bottom:0.7rem
+}
+.ongoing .middle hr{
+    height:2px;
+    background-color:#4b6cb7;
+}
+.ongoing .middle .circle{
+    background-color: #3498db;
+}
+.ongoing .middle p{
+    margin-top: 0.3rem;
+}
+.week .color{
+    background-color:#4b6cb7;
+    color:#ffff;
+    border-radius:3px;
+}
+.week .next-month{
+    color:#3498db
+}
+
+@media screen and (max-width:540px){
+    .main-container{
+        height:100%;
+        margin:0;
+    }
+    /* HOME PAGE  */
+    body{
+        background-color: #ffff;
+    }
+    .bottom .bottom-box p{
+        margin-bottom:0.5rem;
+    }
+    .bottom .bottom-box .status{
+        margin-bottom:2rem;
+    }
+        /* INDEX PAGE  */
+    .text br{
+        display:block
+    }
+    /* calendar page  */
+       .ongoing h2{
+        font-size:1.3rem;
+    }
+    
+}
+@media screen and (min-width:540px){
+    /* home page  */
+    .footer p, .button{
+        /* text-align:left */
+    }
+}
+@media screen and (max-width:450px){
+    /* HOME PAGE  */
+    .bottom .bottom-box p{
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width:380px){
+    /* HOME PAGE  */
+    .bottom .bottom-box p{
+        font-size:1.2rem;
+    }
+}
+@media screen and (max-width:420px){
+    /* CALENDAR PAGE  */
+    .ongoing .middle hr{
+        margin-top:1.8rem;
+    }
+    .ongoing .middle p{
+        margin-top:1.2rem
+    }
+}
+@media screen and (max-width:450px){
+    .bottom .bottom-box a{
+        font-size: 10px;
+    }
+    .bottom .bottom-box .status{
+        font-size:12px;
+    }
+}
